@@ -3,4 +3,6 @@ def reverse_each_word(string)
   backwards_array = string_array.map do |word|
     "#{word.reverse}"
   end
+  final_array = backwards_array.join(" ")
+
 end
